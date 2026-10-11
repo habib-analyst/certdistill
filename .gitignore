@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+data/
+checkpoints/
+results/*.json
+results/*.npy
+logs/
+PIPELINE_DONE
+.DS_Store

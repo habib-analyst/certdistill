@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380">
+<text x="320" y="28" text-anchor="middle" font-size="16" font-family="sans-serif">Certified accuracy vs # malicious clients (worst-case)</text>
+<line x1="60" y1="320.0" x2="580" y2="320.0" stroke="#e5e7eb"/>
+<text x="54" y="324.0" text-anchor="end" font-size="10" font-family="sans-serif">0.00</text>
+<line x1="60" y1="294.0" x2="580" y2="294.0" stroke="#e5e7eb"/>
+<text x="54" y="298.0" text-anchor="end" font-size="10" font-family="sans-serif">0.10</text>
+<line x1="60" y1="268.0" x2="580" y2="268.0" stroke="#e5e7eb"/>
+<text x="54" y="272.0" text-anchor="end" font-size="10" font-family="sans-serif">0.21</text>
+<line x1="60" y1="242.0" x2="580" y2="242.0" stroke="#e5e7eb"/>
+<text x="54" y="246.0" text-anchor="end" font-size="10" font-family="sans-serif">0.31</text>
+<line x1="60" y1="216.0" x2="580" y2="216.0" stroke="#e5e7eb"/>
+<text x="54" y="220.0" text-anchor="end" font-size="10" font-family="sans-serif">0.41</text>
+<line x1="60" y1="190.0" x2="580" y2="190.0" stroke="#e5e7eb"/>
+<text x="54" y="194.0" text-anchor="end" font-size="10" font-family="sans-serif">0.52</text>
+<line x1="60" y1="164.0" x2="580" y2="164.0" stroke="#e5e7eb"/>
+<text x="54" y="168.0" text-anchor="end" font-size="10" font-family="sans-serif">0.62</text>
+<line x1="60" y1="138.0" x2="580" y2="138.0" stroke="#e5e7eb"/>
+<text x="54" y="142.0" text-anchor="end" font-size="10" font-family="sans-serif">0.72</text>
+<line x1="60" y1="112.0" x2="580" y2="112.0" stroke="#e5e7eb"/>
+<text x="54" y="116.0" text-anchor="end" font-size="10" font-family="sans-serif">0.82</text>
+<line x1="60" y1="86.0" x2="580" y2="86.0" stroke="#e5e7eb"/>
+<text x="54" y="90.0" text-anchor="end" font-size="10" font-family="sans-serif">0.93</text>
+<line x1="60" y1="60.0" x2="580" y2="60.0" stroke="#e5e7eb"/>
+<text x="54" y="64.0" text-anchor="end" font-size="10" font-family="sans-serif">1.03</text>
+<rect x="63.1" y="99.4" width="11.1" height="220.6" fill="#2563eb"><title>cd_clean: 0.8743</title></rect>
+<rect x="75.5" y="102.6" width="11.1" height="217.4" fill="#dc2626"><title>cd_logit_targeted_30: 0.8614</title></rect>
+<rect x="87.9" y="98.3" width="11.1" height="221.7" fill="#16a34a"><title>cd_labelflip_30: 0.8784</title></rect>
+<rect x="100.2" y="83.6" width="11.1" height="236.4" fill="#d97706"><title>cao_clean: 0.9367</title></rect>
+<rect x="112.6" y="87.0" width="11.1" height="233.0" fill="#7c3aed"><title>cao_labelflip_20: 0.9232</title></rect>
+<text x="97.1" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">B=0</text>
+<rect x="137.4" y="102.2" width="11.1" height="217.8" fill="#2563eb"><title>cd_clean: 0.8632</title></rect>
+<rect x="149.8" y="106.3" width="11.1" height="213.7" fill="#dc2626"><title>cd_logit_targeted_30: 0.8467</title></rect>
+<rect x="162.1" y="102.0" width="11.1" height="218.0" fill="#16a34a"><title>cd_labelflip_30: 0.8641</title></rect>
+<rect x="174.5" y="85.2" width="11.1" height="234.8" fill="#d97706"><title>cao_clean: 0.9307</title></rect>
+<rect x="186.9" y="90.8" width="11.1" height="229.2" fill="#7c3aed"><title>cao_labelflip_20: 0.9082</title></rect>
+<text x="171.4" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">B=1</text>
+<rect x="211.7" y="104.9" width="11.1" height="215.1" fill="#2563eb"><title>cd_clean: 0.8524</title></rect>
+<rect x="224.0" y="111.5" width="11.1" height="208.5" fill="#dc2626"><title>cd_logit_targeted_30: 0.8261</title></rect>
+<rect x="236.4" y="106.1" width="11.1" height="213.9" fill="#16a34a"><title>cd_labelflip_30: 0.8476</title></rect>
+<rect x="248.8" y="86.6" width="11.1" height="233.4" fill="#d97706"><title>cao_clean: 0.9251</title></rect>
+<rect x="261.2" y="96.1" width="11.1" height="223.9" fill="#7c3aed"><title>cao_labelflip_20: 0.8872</title></rect>
+<text x="245.7" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">B=2</text>
+<rect x="286.0" y="111.3" width="11.1" height="208.7" fill="#2563eb"><title>cd_clean: 0.8270</title></rect>
+<rect x="298.3" y="124.3" width="11.1" height="195.7" fill="#dc2626"><title>cd_logit_targeted_30: 0.7754</title></rect>
+<rect x="310.7" y="116.1" width="11.1" height="203.9" fill="#16a34a"><title>cd_labelflip_30: 0.8080</title></rect>
+<rect x="323.1" y="91.2" width="11.1" height="228.8" fill="#d97706"><title>cao_clean: 0.9069</title></rect>
+<rect x="335.5" y="108.8" width="11.1" height="211.2" fill="#7c3aed"><title>cao_labelflip_20: 0.8371</title></rect>
+<text x="320.0" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">B=4</text>
+<rect x="360.2" y="120.7" width="11.1" height="199.3" fill="#2563eb"><title>cd_clean: 0.7899</title></rect>
+<rect x="372.6" y="154.6" width="11.1" height="165.4" fill="#dc2626"><title>cd_logit_targeted_30: 0.6555</title></rect>
+<rect x="385.0" y="139.6" width="11.1" height="180.4" fill="#16a34a"><title>cd_labelflip_30: 0.7149</title></rect>
+<rect x="397.4" y="97.6" width="11.1" height="222.4" fill="#d97706"><title>cao_clean: 0.8813</title></rect>
+<rect x="409.8" y="132.8" width="11.1" height="187.2" fill="#7c3aed"><title>cao_labelflip_20: 0.7420</title></rect>
+<text x="394.3" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">B=6</text>
+<rect x="434.5" y="320.0" width="11.1" height="0.0" fill="#2563eb"><title>cd_clean: 0.0000</title></rect>
+<rect x="446.9" y="320.0" width="11.1" height="0.0" fill="#dc2626"><title>cd_logit_targeted_30: 0.0000</title></rect>
+<rect x="459.3" y="320.0" width="11.1" height="0.0" fill="#16a34a"><title>cd_labelflip_30: 0.0000</title></rect>
+<rect x="471.7" y="320.0" width="11.1" height="0.0" fill="#d97706"><title>cao_clean: 0.0000</title></rect>
+<rect x="484.0" y="320.0" width="11.1" height="0.0" fill="#7c3aed"><title>cao_labelflip_20: 0.0000</title></rect>
+<text x="468.6" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">B=10</text>
+<rect x="508.8" y="320.0" width="11.1" height="0.0" fill="#2563eb"><title>cd_clean: 0.0000</title></rect>
+<rect x="521.2" y="320.0" width="11.1" height="0.0" fill="#dc2626"><title>cd_logit_targeted_30: 0.0000</title></rect>
+<rect x="533.6" y="320.0" width="11.1" height="0.0" fill="#16a34a"><title>cd_labelflip_30: 0.0000</title></rect>
+<rect x="546.0" y="320.0" width="11.1" height="0.0" fill="#d97706"><title>cao_clean: 0.0000</title></rect>
+<rect x="558.3" y="320.0" width="11.1" height="0.0" fill="#7c3aed"><title>cao_labelflip_20: 0.0000</title></rect>
+<text x="542.9" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">B=18</text>
+<rect x="60" y="362" width="12" height="12" fill="#2563eb"/>
+<text x="76" y="372" font-size="11" font-family="sans-serif">cd_clean</text>
+<rect x="190" y="362" width="12" height="12" fill="#dc2626"/>
+<text x="206" y="372" font-size="11" font-family="sans-serif">cd_logit_targeted_30</text>
+<rect x="320" y="362" width="12" height="12" fill="#16a34a"/>
+<text x="336" y="372" font-size="11" font-family="sans-serif">cd_labelflip_30</text>
+<rect x="450" y="362" width="12" height="12" fill="#d97706"/>
+<text x="466" y="372" font-size="11" font-family="sans-serif">cao_clean</text>
+<rect x="580" y="362" width="12" height="12" fill="#7c3aed"/>
+<text x="596" y="372" font-size="11" font-family="sans-serif">cao_labelflip_20</text>
+<text x="16" y="190" text-anchor="middle" font-size="11" font-family="sans-serif" transform="rotate(-90 16 190)">certified accuracy</text>
+</svg>

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "certdistill"
+version = "0.1.0"
+description = "Certified Byzantine robustness for model-heterogeneous federated learning"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Habib Ur Rehman" }]
+requires-python = ">=3.10"
+dependencies = ["torch", "numpy"]
+keywords = ["federated-learning", "byzantine-robustness", "certified-robustness",
+            "knowledge-distillation", "heterogeneous-fl"]
+
+[project.urls]
+Homepage = "https://github.com/habib-analyst/certdistill"
+
+[tool.setuptools.packages.find]
+where = ["src"]

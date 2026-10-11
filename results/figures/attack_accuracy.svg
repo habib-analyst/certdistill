@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380">
+<text x="320" y="28" text-anchor="middle" font-size="16" font-family="sans-serif">Test accuracy under 30% Byzantine clients (heterogeneous)</text>
+<line x1="60" y1="320.0" x2="580" y2="320.0" stroke="#e5e7eb"/>
+<text x="54" y="324.0" text-anchor="end" font-size="10" font-family="sans-serif">0.00</text>
+<line x1="60" y1="294.0" x2="580" y2="294.0" stroke="#e5e7eb"/>
+<text x="54" y="298.0" text-anchor="end" font-size="10" font-family="sans-serif">0.10</text>
+<line x1="60" y1="268.0" x2="580" y2="268.0" stroke="#e5e7eb"/>
+<text x="54" y="272.0" text-anchor="end" font-size="10" font-family="sans-serif">0.19</text>
+<line x1="60" y1="242.0" x2="580" y2="242.0" stroke="#e5e7eb"/>
+<text x="54" y="246.0" text-anchor="end" font-size="10" font-family="sans-serif">0.29</text>
+<line x1="60" y1="216.0" x2="580" y2="216.0" stroke="#e5e7eb"/>
+<text x="54" y="220.0" text-anchor="end" font-size="10" font-family="sans-serif">0.39</text>
+<line x1="60" y1="190.0" x2="580" y2="190.0" stroke="#e5e7eb"/>
+<text x="54" y="194.0" text-anchor="end" font-size="10" font-family="sans-serif">0.48</text>
+<line x1="60" y1="164.0" x2="580" y2="164.0" stroke="#e5e7eb"/>
+<text x="54" y="168.0" text-anchor="end" font-size="10" font-family="sans-serif">0.58</text>
+<line x1="60" y1="138.0" x2="580" y2="138.0" stroke="#e5e7eb"/>
+<text x="54" y="142.0" text-anchor="end" font-size="10" font-family="sans-serif">0.68</text>
+<line x1="60" y1="112.0" x2="580" y2="112.0" stroke="#e5e7eb"/>
+<text x="54" y="116.0" text-anchor="end" font-size="10" font-family="sans-serif">0.77</text>
+<line x1="60" y1="86.0" x2="580" y2="86.0" stroke="#e5e7eb"/>
+<text x="54" y="90.0" text-anchor="end" font-size="10" font-family="sans-serif">0.87</text>
+<line x1="60" y1="60.0" x2="580" y2="60.0" stroke="#e5e7eb"/>
+<text x="54" y="64.0" text-anchor="end" font-size="10" font-family="sans-serif">0.97</text>
+<rect x="70.8" y="84.4" width="39.0" height="235.6" fill="#2563eb"><title>certdistill: 0.8774</title></rect>
+<text x="103.3" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">clean</text>
+<rect x="157.5" y="83.6" width="39.0" height="236.4" fill="#2563eb"><title>certdistill: 0.8804</title></rect>
+<text x="190.0" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">labelflip</text>
+<rect x="244.2" y="84.5" width="39.0" height="235.5" fill="#2563eb"><title>certdistill: 0.8770</title></rect>
+<text x="276.7" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">invert</text>
+<rect x="330.8" y="88.5" width="39.0" height="231.5" fill="#2563eb"><title>certdistill: 0.8623</title></rect>
+<text x="363.3" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">targeted</text>
+<rect x="417.5" y="84.7" width="39.0" height="235.3" fill="#2563eb"><title>certdistill: 0.8765</title></rect>
+<text x="450.0" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">random</text>
+<rect x="504.2" y="84.6" width="39.0" height="235.4" fill="#2563eb"><title>certdistill: 0.8767</title></rect>
+<text x="536.7" y="336" text-anchor="middle" font-size="10" font-family="sans-serif">backdoor</text>
+<rect x="60" y="362" width="12" height="12" fill="#2563eb"/>
+<text x="76" y="372" font-size="11" font-family="sans-serif">certdistill</text>
+<text x="16" y="190" text-anchor="middle" font-size="11" font-family="sans-serif" transform="rotate(-90 16 190)">accuracy</text>
+</svg>
